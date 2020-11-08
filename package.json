@@ -1,0 +1,64 @@
+{
+  "name": "typescript-starter",
+  "version": "0.1.0",
+  "description": "Typescript starter kit ",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node -r dotenv/config dist/index.ts",
+    "start:dev": "node --inspect -r ts-node/register -r dotenv/config src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p0vidl0/typescript-starter.git"
+  },
+  "author": "Alex Kalashnikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/p0vidl0/typescript-starter/issues"
+  },
+  "homepage": "https://github.com/p0vidl0/typescript-starter#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.6",
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-unused-imports": "^1.0.0",
+    "prettier": "^2.1.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node",
+    "testTimeout": 30000,
+    "maxConcurrency": 1,
+    "maxWorkers": 1,
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js,jsx,ts}",
+      "!**/node_modules/**",
+      "!**/vendor/**"
+    ]
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

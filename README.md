@@ -1,5 +1,7 @@
 # Typescript starter kit 
 
+Enjoy easy start with preconfigured ESLint, Prettier and git hooks.
+
 ## Quick start
 
 1. Clone this repo `git clone https://github.com/p0vidl0/typescript-starter.git`
@@ -8,3 +10,9 @@
 
 ## License
 This code is upder MIT license.
+
+## Used technologies
+* [ESLint](https://eslint.org)
+* [Prettier](https://prettier.io)
+* [Husky](https://typicode.github.io/husky/#/)
+* [lint-staged](https://github.com/okonet/lint-staged)

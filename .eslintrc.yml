@@ -37,6 +37,9 @@ rules:
   "@typescript-eslint/no-explicit-any": off
   "@typescript-eslint/member-delimiter-style": error
   "@typescript-eslint/no-unused-vars": off
+  "@typescript-eslint/lines-between-class-members":
+    - error
+    - exceptAfterOverload: true
   unused-imports/no-unused-imports-ts: error
   unused-imports/no-unused-vars-ts:
     - error

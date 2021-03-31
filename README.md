@@ -1,4 +1,4 @@
-# Typescript starter kit 
+# Typescript starter kit
 
 Enjoy easy start with preconfigured ESLint, Prettier and git hooks.
 
@@ -9,10 +9,10 @@ Enjoy easy start with preconfigured ESLint, Prettier and git hooks.
 1. Run code `npm run start:dev`
 
 ## License
-This code is upder MIT license.
+This code is under MIT license.
 
 ## Used technologies
 * [ESLint](https://eslint.org)
 * [Prettier](https://prettier.io)
-* [Husky](https://typicode.github.io/husky/#/)
 * [lint-staged](https://github.com/okonet/lint-staged)
+* [simple-git-hooks](https://github.com/toplenboren/simple-git-hooks)

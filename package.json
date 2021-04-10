@@ -15,7 +15,7 @@
     "eslint:fix": "npm run eslint -- --fix",
     "prettier": "prettier --check src/**/*.ts",
     "prettier:fix": "npm run prettier -- --write",
-    "postprepare": "npx simple-git-hooks"
+    "prepare": "npx simple-pre-commit"
   },
   "repository": {
     "type": "git",

@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/p0vidl0/typescript-starter#readme",
   "devDependencies": {
+    "@types/jest": "^26.0.23",
     "@types/node": "^14.14.22",
     "@typescript-eslint/eslint-plugin": "^4.14.1",
     "@typescript-eslint/parser": "^4.14.1",

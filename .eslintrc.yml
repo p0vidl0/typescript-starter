@@ -10,6 +10,7 @@ plugins:
   - "@typescript-eslint/eslint-plugin"
   - "unused-imports"
   - "security"
+  - "import"
 
 extends:
   - "airbnb-typescript/base"
